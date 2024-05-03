@@ -18,7 +18,7 @@ export default function Modal({ isVisible }) {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [timeLeft]);
 
   let formatTime = (time) => {
     const minutes = Math.floor(time / 60);
@@ -40,7 +40,7 @@ export default function Modal({ isVisible }) {
                 }}
               >
                 <div className="head text-white">
-                  <h1 className=" fw-semibold">ادخل رقم التحقق</h1>
+                  <h1 className=" fw-semibold mb-3">ادخل رقم التحقق</h1>
                   <p>تم ارسال رمز التحقق الى +2011111111</p>
                 </div>
 
