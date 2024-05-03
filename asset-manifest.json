@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amlak/static/css/main.9fcaa0c8.css",
+    "main.js": "/amlak/static/js/main.c9339fa0.js",
+    "static/js/453.06a50823.chunk.js": "/amlak/static/js/453.06a50823.chunk.js",
+    "static/media/image.jpg": "/amlak/static/media/image.0e682726305bb643516d.jpg",
+    "index.html": "/amlak/index.html",
+    "main.9fcaa0c8.css.map": "/amlak/static/css/main.9fcaa0c8.css.map",
+    "main.c9339fa0.js.map": "/amlak/static/js/main.c9339fa0.js.map",
+    "453.06a50823.chunk.js.map": "/amlak/static/js/453.06a50823.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fcaa0c8.css",
+    "static/js/main.c9339fa0.js"
+  ]
+}
