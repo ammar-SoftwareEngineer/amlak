@@ -7,7 +7,7 @@ export default function ImageSideBar() {
   return (
     <div className="">
       <div className="image">
-        <img className="" src={image} alt="" />
+        <img className="w-100 min-vh-100" src={image} alt="" />
       </div>
     </div>
   );
