@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 export default function Modal({ isVisible }) {
+
   let [numbersInput, setNumbersInput] = useState({
     numberOne: "",
     numberTwo: "",
@@ -30,13 +31,14 @@ export default function Modal({ isVisible }) {
     return (
       <div className="">
         <div className="row gx-0">
+         
           <div className="col-lg-12 d-flex justify-content-center align-items-center min-vh-100">
             <div className="container border rounded-3">
               <form
                 className=" p-5 "
                 onSubmit={(e) => {
                   e.preventDefault();
-                  console.log(numbersInput);
+
                 }}
               >
                 <div className="head text-white">
@@ -44,7 +46,7 @@ export default function Modal({ isVisible }) {
                   <p>تم ارسال رمز التحقق الى +2011111111</p>
                 </div>
 
-                <div class="row gy-5 mt-3 justify-content-center ">
+                <div class="row gy-4 mt-3 justify-content-center ">
                   <div class="col-lg-2 col-md-2 col-3">
                     <input
                       type="text"
@@ -93,21 +95,23 @@ export default function Modal({ isVisible }) {
                       }}
                     />
                   </div>
-                  <div class="col-8 ">
-                    
-                      <button
-                        // onClick={handleLoginClick}
-                        type="submit"
-                        className="btn text-white w-100 fs-5 py-3"
-                      >
-                        تحقق
-                      </button>
-                   
-                    <div className="text-center mt-3">
-                      <span className=" text-white fs-5">
+                  <div class="col-8 text-center">
+                  <span className=" text-white fs-5 ms-2">
                         {formatTime(timeLeft)}
                       </span>
-                    </div>
+                  </div>
+                  
+                  <div class="col-8 ">
+                    <button
+                      // onClick={handleLoginClick}
+                      type="submit"
+                      className="btn text-white w-100 fs-5 py-3"
+                    >
+                      
+                      تحقق
+                    </button>
+
+                    <div className="text-center mt-3"></div>
                   </div>
                 </div>
               </form>
